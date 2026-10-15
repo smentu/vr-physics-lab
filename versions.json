@@ -10,5 +10,11 @@
   "note": "30 kg box moved to the floor left of the table, where it can be reached",
   "source": "1f12ce9+uncommitted",
   "published": "2026-10-15 12:36"
+ },
+ {
+  "version": "v2",
+  "note": "Painterly procedural textures (GPU-baked brush strokes), soft/banded lighting on B/Y, binaural contact sounds (impacts and rubbing), sound check button",
+  "source": "1f12ce9+uncommitted",
+  "published": "2026-10-15 13:43"
  }
 ]
