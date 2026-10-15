@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VR Physics Lab</title>
+<style>
+  :root { --bg: #14181c; --panel: #1d2126; --line: #2f363d; --fg: #dfe3e6; --muted: #8c969f; --accent: #e8a33d;
+          --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; --mono: ui-monospace, Menlo, monospace;
+          color-scheme: dark; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 var(--sans); }
+  main { max-width: 46rem; margin: 0 auto; padding-block: 28px; padding-inline: 16px; display: grid; gap: 18px; }
+  h1 { margin: 0; font-size: 1.6rem; }
+  p { margin: 0; color: var(--muted); }
+  .latest { display: inline-block; font: 600 1.2rem var(--sans); background: var(--accent); color: #1a1205;
+            padding: 14px 26px; border-radius: 8px; text-decoration: none; justify-self: start; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; background: var(--line);
+       border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+  li { display: grid; grid-template-columns: 4.5rem 1fr; gap: 2px 14px; padding: 12px 14px; background: var(--panel); }
+  li a { color: var(--accent); font: 600 1.05rem var(--mono); text-decoration: none; grid-row: span 2; }
+  .note { min-width: 0; }
+  .meta { color: var(--muted); font: 0.8rem var(--mono); }
+</style></head>
+<body><main>
+<h1>VR Physics Lab</h1>
+<p>Spring-driven hands and boxes of real mass, simulated by MuJoCo on the headset. Each version stays here unchanged.</p>
+<a class="latest" href="./v0/">Open the latest (v0)</a>
+<ul>
+<li><a href="./v0/"><span class="v">v0</span></a><span class="note">Spring hands (200 N, 15 N m clamps), grip welds, six boxes 1-30 kg, wall and table, haptics, frame-time board</span><span class="meta">2026-10-15 12:31 · source 1f12ce9</span></li>
+</ul>
+</main></body></html>
