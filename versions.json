@@ -28,5 +28,11 @@
   "note": "Back wall removed; 1 m grid painted into the floor; status board stands free beyond the table",
   "source": "1f12ce9+uncommitted",
   "published": "2026-10-15 13:52"
+ },
+ {
+  "version": "v5",
+  "note": "No more thuds while rubbing: impacts need a contact onset after 60 ms apart, a force spike, or a heavy landing, and a minimum collision energy",
+  "source": "1f12ce9+uncommitted",
+  "published": "2026-10-15 14:00"
  }
 ]
