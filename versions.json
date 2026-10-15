@@ -16,5 +16,11 @@
   "note": "Painterly procedural textures (GPU-baked brush strokes), soft/banded lighting on B/Y, binaural contact sounds (impacts and rubbing), sound check button",
   "source": "1f12ce9+uncommitted",
   "published": "2026-10-15 13:43"
+ },
+ {
+  "version": "v3",
+  "note": "Subtle plaster-style painting at a large scale, one unrepeated painting per surface (no visible tiling); oil style kept as a preset",
+  "source": "1f12ce9+uncommitted",
+  "published": "2026-10-15 13:49"
  }
 ]
