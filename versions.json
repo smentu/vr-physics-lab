@@ -34,5 +34,11 @@
   "note": "No more thuds while rubbing: impacts need a contact onset after 60 ms apart, a force spike, or a heavy landing, and a minimum collision energy",
   "source": "1f12ce9+uncommitted",
   "published": "2026-10-15 14:00"
+ },
+ {
+  "version": "v6",
+  "note": "Translucency room (sss.html): dark room, one floating lamp, 4 media x 3 shapes + low-poly Stanford bunny, 7 cheap SSS shaders switched with the trigger; lab page unchanged",
+  "source": "1f12ce9+uncommitted",
+  "published": "2026-10-15 16:04"
  }
 ]
