@@ -18,11 +18,30 @@
   .note { min-width: 0; }
   .meta { color: var(--muted); font: 0.8rem var(--mono); }
   .page { color: var(--accent); white-space: nowrap; }
+  .cards { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
+  a.card { display: grid; gap: 6px; align-content: start; padding: 18px 20px; background: var(--panel);
+           border: 1px solid var(--line); border-radius: 10px; color: var(--fg); text-decoration: none; }
+  a.card:hover, a.card:focus-visible { border-color: var(--accent); outline: none; }
+  .name { color: var(--accent); font-weight: 600; font-size: 1.25rem; }
+  .what { color: var(--fg); }
+  .ver { color: var(--muted); font: 0.85rem var(--mono); }
+  h2 { margin: 8px 0 0; font-size: 1.05rem; color: var(--muted); font-weight: 600; }
 </style></head>
 <body><main>
 <h1>VR Physics Lab</h1>
-<p>Spring-driven hands and boxes of real mass, simulated by MuJoCo on the headset. Each version stays here unchanged.</p>
-<a class="latest" href="./v7/">Open the latest (v7)</a>
+<p>WebXR scenes for a standalone headset. Open them in the headset's browser and press Enter VR.</p>
+<div class="cards">
+<a class="card" href="./v7/"><span class="name">Physics lab</span>
+  <span class="what">Your controllers pull two hands through springs with a human strength limit. Boxes of 1 to 30 kg sit in
+  a MuJoCo scene that runs on the headset, with painted surfaces and contact sound.</span>
+  <span class="ver">v7</span></a>
+<a class="card" href="./v7/sss.html"><span class="name">Translucency room</span>
+  <span class="what">Cheap subsurface scattering on the headset: a dark room, one lamp you can pick up, wax, jade, gummy
+  and skin as simple shapes and the Stanford bunny, seven shading techniques to switch between.</span>
+  <span class="ver">v7</span></a>
+</div>
+<h2>All versions</h2>
+<p>Each version stays here unchanged.</p>
 <ul>
 <li><a href="./v7/"><span class="v">v7</span></a><span class="note">Translucency room: bunny without faceting (per-vertex curvature instead of screen-space derivatives) or dark blotches (distance-field march enters before it exits; 2.6 mm field) <a class="page" href="./v7/sss.html">Translucency room</a></span><span class="meta">2026-10-15 16:24 · source 1f12ce9+uncommitted</span></li>
 <li><a href="./v6/"><span class="v">v6</span></a><span class="note">Translucency room (sss.html): dark room, one floating lamp, 4 media x 3 shapes + low-poly Stanford bunny, 7 cheap SSS shaders switched with the trigger; lab page unchanged <a class="page" href="./v6/sss.html">Translucency room</a></span><span class="meta">2026-10-15 16:04 · source 1f12ce9+uncommitted</span></li>
