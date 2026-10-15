@@ -40,5 +40,11 @@
   "note": "Translucency room (sss.html): dark room, one floating lamp, 4 media x 3 shapes + low-poly Stanford bunny, 7 cheap SSS shaders switched with the trigger; lab page unchanged",
   "source": "1f12ce9+uncommitted",
   "published": "2026-10-15 16:04"
+ },
+ {
+  "version": "v7",
+  "note": "Translucency room: bunny without faceting (per-vertex curvature instead of screen-space derivatives) or dark blotches (distance-field march enters before it exits; 2.6 mm field)",
+  "source": "1f12ce9+uncommitted",
+  "published": "2026-10-15 16:24"
  }
 ]
