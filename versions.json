@@ -4,5 +4,11 @@
   "note": "Spring hands (200 N, 15 N m clamps), grip welds, six boxes 1-30 kg, wall and table, haptics, frame-time board",
   "source": "1f12ce9",
   "published": "2026-10-15 12:31"
+ },
+ {
+  "version": "v1",
+  "note": "30 kg box moved to the floor left of the table, where it can be reached",
+  "source": "1f12ce9+uncommitted",
+  "published": "2026-10-15 12:36"
  }
 ]
