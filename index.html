@@ -31,18 +31,24 @@
 <h1>VR Physics Lab</h1>
 <p>WebXR scenes for a standalone headset. Open them in the headset's browser and press Enter VR.</p>
 <div class="cards">
-<a class="card" href="./v7/"><span class="name">Physics lab</span>
+<a class="card" href="./v8/"><span class="name">Physics lab</span>
   <span class="what">Your controllers pull two hands through springs with a human strength limit. Boxes of 1 to 30 kg sit in
   a MuJoCo scene that runs on the headset, with painted surfaces and contact sound.</span>
-  <span class="ver">v7</span></a>
-<a class="card" href="./v7/sss.html"><span class="name">Translucency room</span>
+  <span class="ver">v8</span></a>
+<a class="card" href="./v8/hands.html"><span class="name">Hands lab</span>
+  <span class="what">The physics lab with controller-free hand tracking: articulated physics hands follow your tracked
+  fingers, collide, and hold things by friction alone. Small objects to pinch, the heavy boxes to squeeze between
+  palms.</span>
+  <span class="ver">v8</span></a>
+<a class="card" href="./v8/sss.html"><span class="name">Translucency room</span>
   <span class="what">Cheap subsurface scattering on the headset: a dark room, one lamp you can pick up, wax, jade, gummy
   and skin as simple shapes and the Stanford bunny, seven shading techniques to switch between.</span>
-  <span class="ver">v7</span></a>
+  <span class="ver">v8</span></a>
 </div>
 <h2>All versions</h2>
 <p>Each version stays here unchanged.</p>
 <ul>
+<li><a href="./v8/"><span class="v">v8</span></a><span class="note">Hands lab (hands.html): controller-free hand tracking drives articulated MuJoCo hands (21 joints each) that grasp by friction; small objects and push buttons on the table; lab and translucency room unchanged <a class="page" href="./v8/hands.html">Hands lab</a> <a class="page" href="./v8/sss.html">Translucency room</a></span><span class="meta">2026-10-16 12:58 · source 1f12ce9+uncommitted</span></li>
 <li><a href="./v7/"><span class="v">v7</span></a><span class="note">Translucency room: bunny without faceting (per-vertex curvature instead of screen-space derivatives) or dark blotches (distance-field march enters before it exits; 2.6 mm field) <a class="page" href="./v7/sss.html">Translucency room</a></span><span class="meta">2026-10-15 16:24 · source 1f12ce9+uncommitted</span></li>
 <li><a href="./v6/"><span class="v">v6</span></a><span class="note">Translucency room (sss.html): dark room, one floating lamp, 4 media x 3 shapes + low-poly Stanford bunny, 7 cheap SSS shaders switched with the trigger; lab page unchanged <a class="page" href="./v6/sss.html">Translucency room</a></span><span class="meta">2026-10-15 16:04 · source 1f12ce9+uncommitted</span></li>
 <li><a href="./v5/"><span class="v">v5</span></a><span class="note">No more thuds while rubbing: impacts need a contact onset after 60 ms apart, a force spike, or a heavy landing, and a minimum collision energy</span><span class="meta">2026-10-15 14:00 · source 1f12ce9+uncommitted</span></li>

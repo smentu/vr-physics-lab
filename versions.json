@@ -46,5 +46,11 @@
   "note": "Translucency room: bunny without faceting (per-vertex curvature instead of screen-space derivatives) or dark blotches (distance-field march enters before it exits; 2.6 mm field)",
   "source": "1f12ce9+uncommitted",
   "published": "2026-10-15 16:24"
+ },
+ {
+  "version": "v8",
+  "note": "Hands lab (hands.html): controller-free hand tracking drives articulated MuJoCo hands (21 joints each) that grasp by friction; small objects and push buttons on the table; lab and translucency room unchanged",
+  "source": "1f12ce9+uncommitted",
+  "published": "2026-10-16 12:58"
  }
 ]
